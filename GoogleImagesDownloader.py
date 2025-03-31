@@ -26,7 +26,7 @@ class GoogleImagesDownloader:
             except Exception as e:
                 print(e)
 
-            print(f"downloaded {N} finished {(N/len(to_be_processed))*100} % link:{link}")
+            print(f"downloaded {N} finished {(N/len(semi_filter))*100} % link:{link}")
 
 
     def extract_img_link(self,text):
