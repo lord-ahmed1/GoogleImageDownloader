@@ -50,12 +50,6 @@ class GoogleImageDownloader:
         except:
                 os.remove(f"{directory}/{filename}")
 
-        
-        # img=Image.open(f"{directory}/{filename}")
-        # img.convert("RGB").save(f'{directory}/{filename.replace("webp","jpg")}',"JPEG")
-        
+   
 
 
-
-downloader=GoogleImageDownloader()
-downloader.download_images("husky","data/train/husky")
