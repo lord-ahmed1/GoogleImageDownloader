@@ -4,7 +4,7 @@ import cv2 as cv
 import os
 
 
-class GoogleImageDownloader:
+class GoogleImagesDownloader:
     def __init__(self):
         self.url="https://www.google.com/search"
         self.headers= {
